@@ -1,0 +1,12 @@
+name: AttributeHook
+version: ${project.version}
+main: org.gl.attributehook.AttributeHook
+authors: [ DogLong ]
+commands:
+  attributeHook:
+    aliases:
+      - ah
+      - hook
+permissions:
+  Attrhibute.Reload:
+    default: true
